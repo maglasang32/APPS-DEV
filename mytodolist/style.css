@@ -1,0 +1,67 @@
+body {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient( to bottom, rgba(240, 137, 111, 0.432));
+}
+
+.wrapper {
+  color: rgb(0, 0, 0);
+  margin: 120px auto;
+  max-width: 400px;
+  width: 100%;
+  background-color: rgba(37, 13, 27, 0.678);
+  border-radius: 5px;
+  padding: 40px;
+}
+
+.wrapper header {
+  font-size: 25px;
+  font-weight: 300;
+}
+
+
+.wrapper .inputField {
+  display: flex;
+  height: 45px;
+  width: 90%;
+  margin: 25px 0;
+  margin-left: 40px;
+  
+}
+
+.inputField input {
+  width: 85%;
+  height: 100%;
+  border: 1px solid white;
+  font-size: 17px;
+  border-radius: 3px;
+  padding-left: 15px;
+}
+
+.inputField button {
+  width: 60px;
+  height: 110%;
+  border: none;
+  outline: none;
+  background: #8E49E8;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+
+.paragraph-styling {
+  margin: 0;
+  cursor: pointer;
+  font-size: 20px;
+  margin-left: 40px;   
+  height: 45px;
+  line-height: 45px;
+  position: relative;
+  background: rgba(255, 255, 255, 0.562);
+  border-radius: 3px;
+  margin-bottom: 8px;
+  padding: 0 15px;
+}
